@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,800");
+:root {
+  --orange: #ED835A;
+  --orange300: #ce4b18;
+  --darkBlue: #505E74;
+  --almostBlack: #444;
+  --darkGray: #707070;
+  --lightGray: #EDEDED;
+  --purple: #381587;
+  --almostWhite: #F8F8F8;
+  --white: #FFF;
+  --blackSemitransparent: #00000033;
+  --gradientYellow: #FAEFB4;
+  --gradientRed: #FAA5A8; }
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
@@ -2089,7 +2103,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #363636;
+  color: #444;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
