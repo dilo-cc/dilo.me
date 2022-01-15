@@ -1,15 +1,24 @@
 <section class="section">
   <h3 class="title is-4 has-text-centered">Subscribe to get early access</h3>
-  <div class="notification">
+  <p class="has-text-centered">
+    <small>
+      You could later tell your friends <i>"I told them to fix that!"</i> 🤣
+    </small>
+  </p>
+</section>
+<section class="section p-0 m-0">
+  <div class="notification p-0 m-0">
     <iframe
-      title="request early access to dilo"
-      src="https://dilo.substack.com/embed"
-      width="480"
-      height="100"
-      frameborder="0"
-      scrolling="no"
+    title="request early access to dilo"
+    src="https://dilo.substack.com/embed"
+    width="360"
+    height="100"
+    frameborder="0"
+    scrolling="no"
     />
   </div>
+</section>
+<section class="section">
   <div class="level">
     <div class="level-item has-text-centered">
       <div>
@@ -39,11 +48,12 @@
 </section>
 
 <style>
-    div,section {
-        background-color: #F8F8F8;
-    }
-    iframe {
-        display: block;
-        margin: auto;
-    }
+  div,
+  section {
+    background-color: #f8f8f8;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+  }
 </style>
