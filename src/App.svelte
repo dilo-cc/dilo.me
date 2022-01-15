@@ -2,8 +2,10 @@
   import Hero from "./parts/Hero.svelte";
   import Nav from "./parts/Nav.svelte";
   import CommingSoon from "./parts/CommingSoon.svelte";
+  import Footer from "./parts/Footer.svelte";
 </script>
 
 <Nav />
 <Hero />
 <CommingSoon />
+<Footer />

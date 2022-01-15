@@ -1,8 +1,8 @@
 <section class="hero is-link is-fullheight-with-navbar pattern">
   <div class="hero-body">
-    <div class="columns">
+    <div class="columns is-vcentered">
       <div class="column is-two-thirds">
-        <h1 class="title is-1 is-size-2-mobile is-spaced  has-text-centered-mobile">
+        <h1 class="title is-1 is-size-2-mobile is-spaced">
           what are you doing tonight?
         </h1>
         <p class="subtitle">
