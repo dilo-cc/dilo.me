@@ -2,10 +2,10 @@
   <div class="hero-body">
     <div class="columns">
       <div class="column is-two-thirds">
-        <h1 class="title is-1 is-size-2-mobile is-spaced">
+        <h1 class="title is-1 is-size-2-mobile is-spaced  has-text-centered-mobile">
           what are you doing tonight?
         </h1>
-        <p class="subtitle">
+        <p class="subtitle has-text-justified-mobile">
           dilo finds others who want to do the same, so you don't hang out
           alone.
         </p>
@@ -13,7 +13,7 @@
       <div class="column">
         <div class="notificationss">
           <div class="video-wrapper">
-            <video muted autoplay loop>
+            <video playsinline preload="none" muted autoplay loop>
               <track kind="captions" />
               <source src="dinner.mp4" type="video/mp4" />
             </video>
@@ -46,6 +46,7 @@
   }
   div.notificationss {
     width: 300px;
+    margin: 0 auto;
     position: relative;
   }
   div.frame {
