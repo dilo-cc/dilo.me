@@ -18,7 +18,7 @@
         <ul class="">
             <li class="">individuals to make friends</li>
             <li class="">couples to make friends</li>
-            <li class="">families to make families</li>
+            <li class="">families to make friends</li>
         </ul>
     </div>
     <div class="column has-text-centered">
@@ -36,13 +36,17 @@
   </div>
   <div class="container">
     <p class="is-7 has-text-centered is-uppercase">
-      <small>
-        copyright © {year} jonathanmv.<br />
-        All rights reserved.
-      </small>
     </p>
   </div>
 </footer>
+<div class="container">
+  <p class="is-7 has-text-centered">
+    <small><a href="/privacy">privacy policy</a></small> - 
+    <small><a href="/terms">terms and conditions</a></small> - 
+    <small><a href="/disclaimer">disclaimer</a></small> -
+    <small>copyright © {year} jonathanmv - all rights reserved</small>
+  </p>
+</div>
 <style>
     p.title {
         color: var(--darkBlue);
