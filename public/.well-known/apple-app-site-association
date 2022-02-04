@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "68238BYF57.chat.dilo"
+        ],
+        "components": [
+          {
+            "/": "/p/*",
+            "comment": "URL of a plan"
+          }
+        ]
+      }
+    ]
+  }
+}

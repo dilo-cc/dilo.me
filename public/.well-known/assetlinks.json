@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "chat.dilo",
+      "sha256_cert_fingerprints": [
+        "A0:F7:1E:33:59:5C:34:45:94:06:59:D7:57:90:07:36:4D:F8:FF:99:15:21:06:30:66:5C:FD:4E:9C:07:2C:D4",
+        "B4:E4:43:7E:A3:CF:32:7D:E9:04:40:45:6F:D0:EB:34:DF:DB:3C:B6:C3:D9:0B:70:70:44:AE:C6:9E:45:92:62"
+      ]
+    }
+  }
+]
