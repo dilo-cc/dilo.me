@@ -2,7 +2,7 @@
   <div class="hero-body">
     <div class="columns is-vcentered">
       <div class="column is-two-thirds">
-        <h1 class="title is-1 is-size-2-mobile is-spaced">
+        <h1 class="title is-1 is-size-2-mobile is-spaced mb-5">
           dilo. meet people going out
         </h1>
         <p class="subtitle">
@@ -10,7 +10,7 @@
           explore cool things to do around you.
         </p>
         <div class="level">
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered mt-6">
             <div>
               <div class="notification is-primary">
                 <a href="https://apps.apple.com/us/app/dilo/id1574622995">
@@ -23,7 +23,7 @@
               </div>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered mt-6">
             <div>
               <div class="notification is-primary">
                 <a

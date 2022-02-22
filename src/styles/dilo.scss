@@ -1,36 +1,58 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,800');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,800");
 
 :root {
-    --orange: #ED835A;
-    --orange300: #ce4b18;
-    --darkBlue: #505E74;
-    --almostBlack: #444;
-    --darkGray: #707070;
-    --lightGray: #EDEDED;
-    --purple: #381587;
-    --almostWhite: #F8F8F8;
-    --white: #FFF;
-    --blackSemitransparent: #00000033;
-    --gradientYellow: #FAEFB4;
-    --gradientRed: #FAA5A8;
+  --orange: #ed835a;
+  --orange300: #ce4b18;
+  --darkBlue: #505e74;
+  --almostBlack: #444;
+  --darkGray: #707070;
+  --lightGray: #ededed;
+  --purple: #381587;
+  --almostWhite: #f8f8f8;
+  --white: #fff;
+  --blackSemitransparent: #00000033;
+  --gradientYellow: #faefb4;
+  --gradientRed: #faa5a8;
+  --darkBlue50: #eaf3ff;
+  --darkBlue100: #d0d7e4;
+  --darkBlue200: #b3bdcc;
+  --darkBlue300: #95a2b6;
+  --darkBlue400: #7888a0;
+  --darkBlue500: #5f6e87;
+  --darkBlue600: #49566a;
+  --darkBlue700: #333d4c;
+  --darkBlue800: #1d2530;
+  --darkBlue900: #040d17;
+  --yellow400: #fde047;
 }
 
 // Set your brand colors
-$orange: #ED835A;
+$orange: #ed835a;
 $orange300: #ce4b18;
-$darkBlue: #505E74;
+$darkBlue: #505e74;
 $almostBlack: #444;
 $darkGray: #707070;
-$lightGray: #EDEDED;
+$lightGray: #ededed;
 $purple: #381587;
-$almostWhite: #F8F8F8;
-$white: #FFF;
+$almostWhite: #f8f8f8;
+$white: #fff;
 $blackSemitransparent: #00000033;
-$gradientYellow: #FAEFB4;
-$gradientRed: #FAA5A8;
+$gradientYellow: #faefb4;
+$gradientRed: #faa5a8;
+$darkBlue50: #eaf3ff;
+$darkBlue100: #d0d7e4;
+$darkBlue200: #b3bdcc;
+$darkBlue300: #95a2b6;
+$darkBlue400: #7888a0;
+$darkBlue500: #5f6e87;
+$darkBlue600: #49566a;
+$darkBlue700: #333d4c;
+$darkBlue800: #1d2530;
+$darkBlue900: #040d17;
+$yellow400: #fde047;
 
 // Update Bulma's global variables
 $size-1: 3.5rem;
@@ -39,7 +61,7 @@ $title-weight: 800;
 $family-sans-serif: "Montserrat", sans-serif;
 $grey-dark: $darkGray;
 $grey-light: $lightGray;
-$primary: $orange;
+$primary: $yellow300;
 $success: $purple;
 $link: $darkBlue;
 $info: $gradientYellow;
