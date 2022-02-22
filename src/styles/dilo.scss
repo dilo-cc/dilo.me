@@ -26,7 +26,7 @@
   --darkBlue700: #333d4c;
   --darkBlue800: #1d2530;
   --darkBlue900: #040d17;
-  --yellow400: #fde047;
+  --yellow300: #fde047;
 }
 
 // Set your brand colors
@@ -52,7 +52,7 @@ $darkBlue600: #49566a;
 $darkBlue700: #333d4c;
 $darkBlue800: #1d2530;
 $darkBlue900: #040d17;
-$yellow400: #fde047;
+$yellow300: #fde047;
 
 // Update Bulma's global variables
 $size-1: 3.5rem;
@@ -69,6 +69,6 @@ $warning: $orange300;
 $danger: $gradientRed;
 
 // Update some of Bulma's component variables
-$body-background-color: $lightGray;
+$body-background-color: $yellow300;
 
 @import "../../node_modules/bulma/bulma.sass";

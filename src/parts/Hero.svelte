@@ -2,45 +2,39 @@
   <div class="hero-body">
     <div class="columns is-vcentered">
       <div class="column is-two-thirds">
-        <h1 class="title is-1 is-size-2-mobile is-spaced mb-5">
+        <h1 class="title is-1 is-size-2-mobile is-spaced">
           dilo. meet people going out
         </h1>
         <p class="subtitle">
           Find a plan for tonight. Meet new people with similar interests and
           explore cool things to do around you.
         </p>
-        <div class="level">
-          <div class="level-item has-text-centered mt-6">
-            <div>
-              <div class="notification is-primary">
-                <a href="https://apps.apple.com/us/app/dilo/id1574622995">
-                  <img
-                    width="200"
-                    src="https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/00f3d09f-0db5-49ce-b063-159e4ec36a58.svg"
-                    alt="apple store logo"
-                  />
-                </a>
-              </div>
+        <div class="columns">
+          <div class="column has-text-centered is-narrow">
+            <div class="notification is-primary">
+              <a href="https://apps.apple.com/us/app/dilo/id1574622995">
+                <img
+                  width="200"
+                  src="https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/00f3d09f-0db5-49ce-b063-159e4ec36a58.svg"
+                  alt="apple store logo"
+                />
+              </a>
             </div>
           </div>
-          <div class="level-item has-text-centered mt-6">
-            <div>
-              <div class="notification is-primary">
-                <a
-                  href="https://play.google.com/store/apps/details?id=chat.dilo"
-                >
-                  <img
-                    width="200"
-                    src="https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/9b92921f-27ed-4beb-831b-e91058b0cdfb.svg"
-                    alt="google play logo"
-                  />
-                </a>
-              </div>
+          <div class="column has-text-centered is-narrow">
+            <div class="notification is-primary">
+              <a href="https://play.google.com/store/apps/details?id=chat.dilo">
+                <img
+                  width="200"
+                  src="https://d1pnnwteuly8z3.cloudfront.net/images/dafc1e05-b0e8-4c6d-b375-4a62333bbd5a/9b92921f-27ed-4beb-831b-e91058b0cdfb.svg"
+                  alt="google play logo"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column preview">
         <img src="/preview/chat.png" alt="dilo preview 1" />
       </div>
     </div>
@@ -55,8 +49,9 @@
     /* background by SVGBackgrounds.com */
   }
 
-  .column > img {
+  .column.preview img {
     border: solid #333d4c 10px;
     border-radius: 60px;
+    max-width: 100%;
   }
 </style>
