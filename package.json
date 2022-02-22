@@ -5,7 +5,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear",
+    "start-as-single-page-application": "sirv public --single",
+    "start-as-static-page": "sirv public --no-clear",
+    "start": "npm run start-as-single-page-application",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "css-build": "node-sass --omit-source-map-url src/styles/dilo.scss public/global.css",
     "css-watch": "npm run css-build -- --watch"
@@ -24,6 +26,7 @@
     "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0",
     "svelte-check": "^2.0.0",
+    "svelte-navigator": "^3.1.5",
     "svelte-preprocess": "^4.0.0",
     "tslib": "^2.0.0",
     "typescript": "^4.0.0"

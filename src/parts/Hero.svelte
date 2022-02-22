@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="column">
-        <img src="preview/chat.png" alt="dilo preview 1" />
+        <img src="/preview/chat.png" alt="dilo preview 1" />
       </div>
     </div>
   </div>
