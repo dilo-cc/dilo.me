@@ -58,6 +58,5 @@
   .column > img {
     border: solid #333d4c 10px;
     border-radius: 60px;
-    height: 100%;
   }
 </style>
